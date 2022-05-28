@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-color: rgb(233, 232, 232);
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  /*  background-color: aqua;*/
+}
+header img {
+  width: 7vw;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 70vh;
+ /*  background-color: bisque; */
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+  line-height: calc(100%);
+  margin: 0 auto;
+}
+
+.seccion1 {
+  width: 65%;
+  height: 100%;
+  /* background-color: rgb(132, 132, 162); */
+}
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vh;
+    resize: none;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-encriptar, .btn-desencriptar{
+width: 7vw;
+height: 25px;
+}
+
+.seccion2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 25%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 8px 25px 50px -2px rgba(0,0,0,0.62);
+-webkit-box-shadow: 8px 25px 50px -2px rgba(0,0,0,0.62);
+-moz-box-shadow: 8px 25px 50px -2px rgba(0,0,0,0.62);
+}
+
+.img-munieco {
+  width: 100%;
+  line-height: 100%;
+  overflow: hidden;
+}
+
+.contenedor-alerta {
+  width: 100%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.parrafo {
+  width: 100%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.ocultar {
+    display: none;
+}
+
+footer {
+  width: 100vw;
+  height: 20vh;
+ /*  background-color: rgb(179, 200, 238); */
+}
