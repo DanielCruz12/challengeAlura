@@ -3,8 +3,8 @@
   margin: 0;
 }
 
-body{
-    background-color: rgb(233, 232, 232);
+body {
+  background-color:#f1f1f1;
 }
 
 header {
@@ -19,8 +19,9 @@ header img {
 
 main {
   width: 100%;
-  height: 70vh;
- /*  background-color: bisque; */
+  height: 80vh;
+  /*  background-color: bisque; 
+ */
   display: flex;
   justify-content: space-between;
 }
@@ -37,40 +38,41 @@ section {
   height: 100%;
   /* background-color: rgb(132, 132, 162); */
 }
-.area{
-    width: 80%;
-    height: 70%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 5vh;
-    resize: none;
-    font-size: 20px;
-}
-.btn{
-    margin-top: 20px;
-    text-align: center;
-}
-
-.btn-encriptar, .btn-desencriptar{
-width: 7vw;
-height: 25px;
-}
-
 .seccion2 {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 25%;
-  height: 100%;
+  width: 22%;
   background-color: #ffffff;
-  border-radius: 40px;
-  box-shadow: 8px 25px 50px -2px rgba(0,0,0,0.62);
--webkit-box-shadow: 8px 25px 50px -2px rgba(0,0,0,0.62);
--moz-box-shadow: 8px 25px 50px -2px rgba(0,0,0,0.62);
+  border-radius: 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.area {
+  width: 80%;
+  height: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5vh;
+  resize: none;
+  border: none;
+}
+.btn {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.btn-encriptar,
+.btn-desencriptar {
+  font-size: 1rem;
+  width: 6rem;
+  height: 3rem;
 }
 
 .img-munieco {
   width: 100%;
+  height: 60%;
+  padding-top: 30%;
+  box-sizing: border-box;
   line-height: 100%;
   overflow: hidden;
 }
@@ -81,6 +83,24 @@ height: 25px;
   text-align: center;
 }
 
+.contenedor-resultado{
+  width: 100%;
+  height: 60%;
+  padding: 45%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.contenedor-copiar{
+  width: 100%;
+  height: 20%;
+}
+
+.btn-copiar{
+  width: 25%;
+  height: 30%;
+  display: block;
+  margin: auto;
+}
 .parrafo {
   width: 100%;
   padding-top: 10%;
@@ -88,11 +108,11 @@ height: 25px;
 }
 
 .ocultar {
-    display: none;
+  display: none;
 }
 
 footer {
   width: 100vw;
   height: 20vh;
- /*  background-color: rgb(179, 200, 238); */
+  /*  background-color: rgb(179, 200, 238); */
 }
